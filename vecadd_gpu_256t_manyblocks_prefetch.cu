@@ -16,7 +16,7 @@ __global__ void add(int n, float *x, float *y)
 
 int main(void)
 {
-  int N = 1<<24;
+  int N = 1<<24;  // 20 -> 24
 
   float *x, *y;
   // cudaMallocManaged allocate data in unified memory, returns a pointer that you can access from host code or device code

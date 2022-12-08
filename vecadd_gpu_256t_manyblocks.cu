@@ -16,7 +16,7 @@ __global__ void add(int n, float *x, float *y)
 
 int main(void)
 {
-  int N = 1<<24;
+  int N = 1<<24; // 20 -> 24
 
   float *x, *y;
   cudaMallocManaged(&x, N*sizeof(float));

@@ -11,7 +11,7 @@ void add(int n, float *x, float *y)
 
 int main(void)
 {
-  int N = 1<<24;
+  int N = 1<<24;  // 20 -> 24
 
   float *x = new float[N];
   float *y = new float[N];
