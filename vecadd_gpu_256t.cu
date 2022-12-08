@@ -4,7 +4,8 @@
 
 // function to add the elements of two arrays
 // CUDA Kernel function to add the elemnets of two arrays on the GPU
-__global__ void add(int n, float *x, float *y)
+__global__ 
+void add(int n, float *x, float *y)
 {
   int index = threadIdx.x;
   int stride = blockDim.x;
